@@ -15,29 +15,35 @@ p {
 	font-size: 14px;
 	line-height: 32px;
 	color: #000000;
+	font-family: 'Cutive Mono';
 }
 h1 {
 	font-size: 65px;
 	color: #2d3033;
+	font-family: 'Cutive Mono';
 }
 h2 {
 	font-size: 40px;
 	color: #2d3033;
+	font-family: 'Cutive Mono';
 }
 h3 {
 	font-size: 28px;
 	color: #2d3033;
 	font-weight: 300;
+	font-family: 'Cutive Mono';
 }
 h4 {
 	font-size: 22px;
 	color: #2d3033;
 	font-weight: 700;
+	font-family: 'Cutive Mono';
 }
 h5 {
 	font-size: 14px;
 	color: #2d3033;
 	font-weight: 700;
+	font-family: 'Cutive Mono';
 }
 .btn {
 	background-color: #333;
@@ -50,6 +56,7 @@ h5 {
 	padding: 3%;
 	display: inline-block;
 	text-transform: uppercase;
+	font-family: 'Cutive Mono';
 }
 .btn:hover, .btn:focus {
 	background-color: #000;
@@ -526,6 +533,7 @@ ul li {
           transform: translate3d(0, 0, 0);
   vertical-align: top;
   white-space: nowrap;
+	font-family: 'Cutive Mono';
 }
 
 .form2 { 
