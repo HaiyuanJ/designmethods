@@ -1,0 +1,106 @@
+body {
+	background-image: url("bg.png");
+	background-size: 100%;
+	background-color: #191513;
+	background-repeat: no-repeat;
+}
+
+#sidebar_7 {
+	margin-left: 15px;
+}
+#sidebar_7:hover {
+	background-image: url("s7_hover.png");
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#side {
+	position: absolute;
+	transform: scale(0.5);
+    left: -550px;
+    top: -315px;
+}
+
+#dany{
+	position: absolute;
+    left: 766px;
+    top: 271px;
+    transform: scale(0.5);
+}
+
+#jon{
+	position: absolute;
+    left: 420px;
+    top: 175px;
+    transform: scale(0.5);
+}
+#robb{
+	position: absolute;
+    left: 696px;
+    top: 180px;
+    transform: scale(0.5);
+}
+#renly{
+	position: absolute;
+    left: 800px;
+    top: 217px;
+    transform: scale(0.5);
+}
+
+#joffrey{
+	position: absolute;
+    left: 788px;
+    top: 413px;
+    transform: scale(0.5);
+}
+#tommen{
+	position: absolute;
+    left: 770px;
+    top: 504px;
+    transform: scale(0.5);
+}
+#cersei{
+	position: absolute;
+    left: 467px;
+    top: 449px;
+    transform: scale(0.5);
+}
+
+#robert{
+	position: absolute;
+    left: 450px;
+    top: 449px;
+    transform: scale(0.5);
+}
+#stannis{
+	position: absolute;
+    left: 362px;
+    top: 310px;
+    transform: scale(0.5);
+}
+
+.sideFadeIn{
+	animation-name: sideFadeIn;
+	-webkit-animation-name: sideFadeIn;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes sideFadeIn {
+	0% {
+	
+		opacity: 0.0;		
+	}
+	50% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;	
+	}		
+}
