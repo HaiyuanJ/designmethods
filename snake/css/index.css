@@ -1,0 +1,35 @@
+body{
+	background-color: #253238;
+}
+
+
+#canvas{
+	background-color: #37474F;
+	width:600px;
+	height: 600px;
+	margin-top: 5%;
+	
+	margin-left: 10%;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.xiaokuai{
+	color: #37474F;
+	border-radius: 12px;
+	border:1px white;
+	float: left;
+	width:30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#tweets{
+	float: left;
+	margin-left: 100px;
+	margin-top: 15%;
+	width: 500px;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color: #E4FF65;
+}
